@@ -17,7 +17,7 @@ while (true) {
 
   const maxTarget = Math.min(
     Math.floor((maxProfit / betSize + 1) * 100),
-    100000000
+    10000
   )
   const target = Math.round(Math.random() * (maxTarget - 101) + 101) / 100
 
